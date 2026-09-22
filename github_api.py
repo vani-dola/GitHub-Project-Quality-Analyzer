@@ -1,10 +1,16 @@
+import os
 from github import Github
 
 
 def connect_github():
     """
-    Connect to GitHub without authentication.
+    Connect to GitHub using a personal access token.
     """
+    token = os.getenv("GITHUB_TOKEN")
+
+    if token:
+        return Github(token)
+
     return Github()
 
 

@@ -1,0 +1,36 @@
+GitHub Project Quality Report
+========================================
+
+Repository Details
+------------------------------
+Name: GitHub-Project-Quality-Analyzer
+Owner: vani-dola
+Stars: 0
+Forks: 0
+Language: Python
+
+Project Structure
+------------------------------
+Files: ['.gitignore', 'README.md', 'analyzer.py', 'desktop.ini', 'github_api.py', 'main.py', 'report_generator.py', 'requirements.txt', 'utils.py']
+Folders: []
+
+README Analysis
+------------------------------
+Score: 20/100
+Suggestions: ['Installation section is missing.', 'Usage section is missing.', 'Features section is missing.', 'License section is missing.', 'README title is missing.', 'README.md is too short.']
+
+Code Quality
+------------------------------
+Score: 100/100
+Python Files: ['analyzer.py', 'github_api.py', 'main.py', 'report_generator.py', 'utils.py']
+Total Lines: 72
+Suggestions: []
+
+Security Analysis
+------------------------------
+Score: 100/100
+Findings: []
+
+Overall Quality Score
+------------------------------
+Score: 76/100
